@@ -1,0 +1,39 @@
+<idea-plugin version="2">
+  <id>com.shenhua.idea.plugin.openinexplorer</id>
+  <name>Open File In Explorer</name>
+  <version>1.0</version>
+  <vendor email="shenhuanet@126.com" url="http://www.shenhuanet.com">shenhua net</vendor>
+
+  <description><![CDATA[
+      This is an idea plugin that can open a file in the explorer.<br>
+      <em>most HTML tags may be used</em>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      First release<br>
+      <em>most HTML tags may be used</em>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="145.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="RightAction" class="com.shenhua.idea.plugin.openinexplorer.RightAction" text="-- Open In Explorer  (by shenhua)"
+            description="Open File In Explorer.">
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="after" relative-to-action="ReplaceInPath"/>
+    </action>
+  </actions>
+
+</idea-plugin>
