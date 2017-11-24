@@ -1,6 +1,6 @@
 # OpenInExplorer-idea
 
-This is an idea plugin that can open a file in the explorer.
+This is an idea plugin that can open a file in the explorer.It is not the same 'Show in explorer', it is directly open the system file by default.
 
 ## install:
 
