@@ -1,4 +1,4 @@
-# OpenInExplorer
+# OpenInExplorer-idea
 
 This is an idea plugin that can open a file in the explorer.
 
